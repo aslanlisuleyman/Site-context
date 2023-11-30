@@ -1,0 +1,24 @@
+.details{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    height: 92.5vh;
+    color: black;
+    font-weight: 900;
+    font-size: 19px;
+}
+.details img{
+    width: 1000px;
+    height: 600px;
+
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.link{
+    margin-top: 20px;
+}
