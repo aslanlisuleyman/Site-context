@@ -73,7 +73,7 @@ function App() {
       const newData={...item, count:target.count +1,totalPrice:item.price * (target.count+1)}
       setBasket([...basket.filter(element=>element.id !=item.id),newData])
       localStorage.setItem('basket', JSON.stringify([...basket.filter(element=>element.id != item.id),newData]))
-      
+      toast.success('Basketə əlavə olundu');
     }
   }
   
